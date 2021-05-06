@@ -62,28 +62,28 @@ var txtArr = [
 ];
 var imgArr = [null, null,
 	{
-		src: "assets/Earth.jpeg",
+		src: "Earth.jpeg",
 		width: 600,
 		height: 600.5,
 		alt: "Image of Earth from outer space",
 		credit: "© Photo: NASA/Apollo 17 crew"
 	},
 	{
-		src: "assets/Fissure.jpg",
+		src: "Fissure.jpg",
 		width: 800,
 		height: 448,
 		alt: "Image of a fissure in the Earth",
 		credit: "© Photo: Marcio Jose Sanchez, AP"
 	},
 	{
-		src: "assets/FaultMap.jpeg",
+		src: "FaultMap.jpeg",
 		width: 380,
 		height: 382,
 		alt: "Map of the San Andreas Fault",
 		credit: "© Photo: David Lynch"
 	},
 	{
-		src: "assets/Model.png",
+		src: "Model.png",
 		width: 730.62500,
 		height: 438.12500,
 		alt: "Model of the San Andreas Fault and surrounding landscape.",
