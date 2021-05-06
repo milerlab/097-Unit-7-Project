@@ -1,0 +1,106 @@
+/* start page */
+body {
+	background-image: url("assets/SanAndreas.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+}
+#credit {
+	color: white;
+	font-family: sans-serif;
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+}
+#start {
+	/* position */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	height: 350px;
+	width: 600px;
+	margin-top: -175px;
+	margin-left: -305px;
+	/* content */
+	background-color: burlywood;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 5px solid darkgoldenrod;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px #4F4F4F;
+}
+/* start text */
+#start h1 {
+	color: darkgreen;
+	font-family: Tahoma, sans-serif;
+	font-weight: normal;
+	text-decoration: underline dashed;
+	font-size:  38px;
+	text-align: center;
+}
+#start p {
+	color: forestgreen;
+	font-family: Arial, sans-serif;
+	font-size:  18px;
+	font-style: italic;
+	text-align: center;
+	margin: 10px;
+	margin-top: 50px;
+}
+/* start button */
+#start-btn {
+	background-color: limegreen;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 33%;
+	transition: 0.5s;
+	transition-property: background-color, box-shadow;
+	cursor: pointer;
+}
+#start-btn:hover {
+	background-color: yellowgreen;
+	box-shadow: 1px 2px 3px grey;
+}
+#start-btn:active {
+	background-color: forestgreen;
+	border: 4px solid darkgreen;
+	box-shadow: none;
+}
+/* image */
+#img {
+	/*width: 729.230769px;
+	height: 546.153846px;*/
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	/*margin-left: -364.615385px;	*/
+}
+/* earthquake video */
+#earthquake {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -319.259259px;	
+}
+/* written component */
+#text {
+	position: fixed;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: #254D29;
+}
+#space {
+	position: fixed;
+	top: 70px;
+	width: 100%;
+	text-align: center;
+	color: #254D29;
+}
